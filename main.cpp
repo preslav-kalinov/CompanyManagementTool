@@ -67,7 +67,7 @@ int main(int argc, char* argv[]) {
 		cout << "Choose an action (0-6): ";
 		cin >> command;
 
-		if (command < 0 || command > 7) {
+		if (command < 0 || command > 6) {
 			cout << "Invalid action number." << endl << endl;
 			continue;
 		}
