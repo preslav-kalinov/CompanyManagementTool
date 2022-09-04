@@ -17,7 +17,6 @@ class Company {
         std::string getCompanyType();
         void setIsVatRegistered(bool isVatRegistered);
         bool getIsVatRegistered();
-        void showCompanyData(const Company &company);
         friend std::ostream& operator << (std::ostream &stream, const Company &company);
 };
 
