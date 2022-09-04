@@ -18,6 +18,7 @@ class Company {
         void setIsVatRegistered(bool isVatRegistered);
         bool getIsVatRegistered();
         friend std::ostream& operator << (std::ostream &stream, const Company &company);
+        ~Company();
 };
 
 #endif

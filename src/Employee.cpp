@@ -67,3 +67,8 @@ void Employee::showEmployeeData() {
     cout << "\nEmployee's working hours per day: " << getWorkingHourPerDay() << "\n";
     cout << "\nEmployee's projects involvement: " << getProjectsParticipation() << "\n\n";
 }
+
+Employee::~Employee(){
+
+}
+

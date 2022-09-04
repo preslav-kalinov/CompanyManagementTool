@@ -17,6 +17,7 @@ class Department {
         void setDepartmentYears(int departmentYears);
         int getDepartmentYears();
         void showDepartmentData();
+        ~Department();
 };
 
 #endif

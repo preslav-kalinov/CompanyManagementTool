@@ -39,3 +39,7 @@ int Department::getDepartmentYears() {
 void Department::showDepartmentData() {
     cout << "Total number of employees: " << getTotalWorkers() << "\n\n";
 }
+
+Department::~Department(){
+
+}

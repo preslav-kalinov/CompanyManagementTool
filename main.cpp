@@ -64,7 +64,7 @@ int main(int argc, char* argv[]) {
 
 	while (true) {
 		printActions();
-		cout << "Choose an action (0-7): ";
+		cout << "Choose an action (0-6): ";
 		cin >> command;
 
 		if (command < 0 || command > 7) {

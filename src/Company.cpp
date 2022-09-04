@@ -42,3 +42,7 @@ ostream& operator << (std::ostream &stream, const Company &company) {
     stream << "Company name: " << company.name;
     return stream;
 }
+
+Company::~Company(){
+
+}

@@ -25,6 +25,7 @@ class Employee {
         void setProjectsParticipation(int projects);
         int getProjectsParticipation();
         void showEmployeeData();
+        ~Employee();
 };
 
 #endif
