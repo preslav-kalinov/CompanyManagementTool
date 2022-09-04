@@ -1,4 +1,5 @@
-
+*.depend
+*.layout
 # Prerequisites
 *.d
 
